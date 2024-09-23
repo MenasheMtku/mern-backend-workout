@@ -15,8 +15,8 @@ app.use(express.json());
 app.use(
   cors({
     // Change to your frontend's URL
-    // origin: "http://localhost:3000",
-    origin: "https://workot-mern-app.netlify.app",
+    //origin: "http://localhost:3000",
+     origin: "https://workot-mern-app.netlify.app",
     // If you need to send cookies or authentication
     credentials: true,
   })
